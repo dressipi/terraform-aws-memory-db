@@ -144,6 +144,12 @@ variable "users" {
   default     = {}
 }
 
+variable "data_tiering" {
+  description = "Whether or not data tiering is enabled"
+  type        = bool
+  default     = false
+}
+
 ################################################################################
 # ACL
 ################################################################################
